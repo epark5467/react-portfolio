@@ -2,7 +2,7 @@
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://epark5467.github.io/react-gh-portfolio",
+  "homepage": "http://epark5467.github.io/react-portfolio",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "jquery": "^3.2.1",
