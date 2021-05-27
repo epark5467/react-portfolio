@@ -3,17 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
+    
 
     return (
       <section id="about">
@@ -27,12 +17,12 @@ class About extends Component {
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} , {zip}
+						   <span>Eugene Park</span><br />
+						   <span>68B Donovan Avenue Masey<br />
+						         Auckland , 0614
                    </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
+						   <span>021 0249 0523</span><br />
+                     <span>epark5467@gmail.com</span>
 					   </p>
                </div>
                <div className="columns download">
