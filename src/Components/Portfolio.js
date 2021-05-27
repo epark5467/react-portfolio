@@ -39,6 +39,17 @@ function Portfolio (){
           <div><Chip label="PHP" color="primary"/><Chip label="jQuery" color="secondary" /><Chip label="MariaDB" color="success" /></div>
         </div>
       );
+    } else if (dialogContent === "cookit") {
+      return (
+        <div className="portfolio-dialog-content">
+          <img src={process.env.PUBLIC_URL + '/images/cookit.jpg'} />
+          <h4>Cookit!</h4>
+          <p>React app created with Spoonacular Recipe and Food API for searching recipe based on its ingredients, meal type, cuisines, etc.<br />
+          <a href="https://epark5467.github.io/cookit/index.html"> Click here </a>
+          </p>
+          <div><Chip label="React JS" color="secondary" /><Chip label="Rest API" color="success" /></div>
+        </div>
+      );
     } else if (dialogContent == "sync-vid") {
       return (
         <div className="portfolio-dialog-content">
@@ -91,10 +102,14 @@ function Portfolio (){
                     <Button className={classes.root} onClick={handleDialogButton.bind(null,"cupia")}><img src={process.env.PUBLIC_URL + '/images/cupia.png'} /></Button>
                 </Grid>
                 <Grid item>
+                  <Button  className={classes.root} onClick={handleDialogButton.bind(null,"cookit")}>
+                    <img src={process.env.PUBLIC_URL + '/images/cookit.jpg'} />
+                  </Button>
+                </Grid>
+                <Grid item>
                   <Button  className={classes.root} onClick={handleDialogButton.bind(null,"sync-vid")}>
                     <img src={process.env.PUBLIC_URL + '/images/sync-vid.png'} />
                   </Button>
-                  
                 </Grid>
                 <Grid item>
                   <Button className={classes.root} onClick={handleDialogButton.bind(null,"pongpong")}>

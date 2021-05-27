@@ -22,7 +22,7 @@ class About extends Component {
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>A Junior web developer with 1+ year experiences and B.S. in Computer Science and Information Systems, seeking to work in a creative and challenging environment where I could utilize and enhance my knowledge in software development.</p>
+            <p>A Junior web developer with 1 year experiences and B.S. in Computer Science and Information Systems, seeking to work in a creative and challenging environment where I could utilize and enhance my knowledge in software development.</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>

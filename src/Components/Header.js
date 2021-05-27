@@ -5,9 +5,6 @@ import { Slide } from "@material-ui/core";
 class Header extends Component {
   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-    }
 
     return (
       <header id="home">
@@ -29,7 +26,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <Slide direction="left" in={true} timeout={2000} mountOnEnter unmountOnExit>
-               <h1 className="responsive-headline">Hello I'm {name}.</h1>
+               <h1 className="responsive-headline">Hello I'm Eugene Park.</h1>
             </Slide>
             <Slide direction="left" in={true} timeout={2500} mountOnEnter unmountOnExit>
                <h2>Junior Web Developer</h2>
